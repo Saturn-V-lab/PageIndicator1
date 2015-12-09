@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="unselectedColor" format="color"/>
+    <attr name="unselectedMode" format="enum">
+        <enum name="Stroke" value="0"/>
+        <enum name="Fill" value="1"/>
+    </attr>
+    <attr name="selectedColor" format="color"/>
+    <attr name="radius" format="dimension"/>
+    <attr name="spacing" format="dimension"/>
+    <attr name="num" format="integer"/>
+    <declare-styleable name="PageIndicator">
+        <attr name="unselectedColor"/>
+        <attr name="selectedColor"/>
+        <attr name="unselectedMode"/>
+        <attr name="radius"/>
+        <attr name="spacing"/>
+        <attr name="num"/>
+    </declare-styleable>
+</resources>
